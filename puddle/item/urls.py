@@ -1,8 +1,8 @@
 
 from django.urls import path
-from . import views     # this imports the views from the item app
-from .views import detail # this imports the detail view from the views.py file
 
+from .views import detail # this imports the detail view from the views.py file
+from . import views
 app_name = 'item' #this is the namespace for the item app
 
 urlpatterns = [
