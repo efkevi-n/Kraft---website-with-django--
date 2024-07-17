@@ -7,4 +7,5 @@ app_name = 'core' #this is the namespace for the core app , we will use this to 
 urlpatterns = [ # this is the list of urls for the core app
     path('', views.index, name='index'),
     path('contact/', views.contact, name='contact'),
-]
+    path('signup/', views.signup, name='signup'),
+] # this is the url pattern for the index view and the contact view
